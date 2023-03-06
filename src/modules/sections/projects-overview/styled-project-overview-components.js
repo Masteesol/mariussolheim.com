@@ -9,7 +9,7 @@ export const InnerContainer = tw.div`
 `;
 
 export const Image = tw.picture`
-    w-[90vw]
+    w-full
     max-w-full
     h-[25rem]
     md:h-[40vw]

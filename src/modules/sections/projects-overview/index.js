@@ -12,10 +12,10 @@ const { projectsSection: textContent } = PageTextContent;
 
 const index = () => {
   return (
-    <Container className="my-[4rem] text-dark">
-      <InnerContainer>
+    <Container className="my-[4rem] text-dark box-border">
+      <InnerContainer className="box-border">
         <H2 className="px-[2rem] my-[2rem]">Solo Projects</H2>
-        <FlexColContainer className="px-[2rem] ">
+        <FlexColContainer className="px-[2rem] w-100 box-border">
           {textContent.map((item, index) => {
             //console.log(item.image);
             return index % 2 === 0 ? (

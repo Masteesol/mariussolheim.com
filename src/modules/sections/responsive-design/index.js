@@ -17,8 +17,10 @@ const { responsiveDesignSection: pageText } = PageTextContent;
 const index = () => {
   return (
     <Container className="text-white">
-      <InnerContainer className="flex-col xl:flex-col justify-center w-[100vw] max-w-[780px] my-[4rem]">
-        <H2 className="w-full mb-[4rem]">Responsive Design</H2>
+      <InnerContainer className="flex-col xl:flex-col justify-center w-full max-w-[780px] my-[4rem] box-border">
+        <H2 className="w-full mb-[4rem] text-center lg:text-left">
+          Responsive Design
+        </H2>
         <FlexColRowContainer className="mb-[2rem] items-center justify-between w-full">
           <IconLarge className="bg-icon-mobile bg-center md:bg-left" />
           <FlexColContainer className="mt-[3rem] md:mt-[0]">
