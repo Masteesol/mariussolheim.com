@@ -3,7 +3,6 @@ import ProjectOverview from "./projects-overview";
 import AboutMe from "./about-me";
 import ResponsiveDesign from "./responsive-design";
 import { Section } from "./styled-section-components";
-//import { useSectionRefs } from "./refs";
 import { useEffect, useRef } from "react";
 
 const Sections = ({

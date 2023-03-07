@@ -13,7 +13,7 @@ export const NavUl = tw.ul`
     text-white
 `;
 
-export const NavLi = tw.li`
+export const NavLi = tw.button`
     mx-2
     cursor-pointer
     hover:underline

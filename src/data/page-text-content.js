@@ -20,8 +20,8 @@ const PageTextContent = {
       `,
       image: "semesterproject2.png",
       links: {
-        gitHub: "#",
-        liveSite: "#",
+        gitHub: "https://github.com/Masteesol/semester_project_2",
+        liveSite: "https://sp2-mariussolheim.netlify.app/",
       },
     },
     {

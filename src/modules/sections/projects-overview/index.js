@@ -25,18 +25,18 @@ const index = () => {
               >
                 <ColumnImage
                   isEven={true}
-                  media={item.image}
+                  data={item}
                   className="lg:items-end"
                 />
-                <ColumnText isEven={true} text={item} />
+                <ColumnText isEven={true} data={item} />
               </FlexColRowContainer>
             ) : (
               <FlexColRowContainer
                 className="justify-center mb-[2rem] flex-col-reverse md:flex-row min-h-[30rem]"
                 key={index}
               >
-                <ColumnText isEven={false} text={item} />
-                <ColumnImage isEven={false} media={item.image} />
+                <ColumnText isEven={false} data={item} />
+                <ColumnImage isEven={false} data={item} />
               </FlexColRowContainer>
             );
           })}
