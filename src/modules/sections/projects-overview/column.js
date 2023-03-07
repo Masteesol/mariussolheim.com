@@ -8,6 +8,7 @@ import {
 import { Image, Link } from "./styled-project-overview-components";
 
 export const ColumnImage = (props) => {
+  console.log(props.data.links.liveSite);
   const url = props.data.media
     ? require(`./project-images/${props.data.media}`)
     : false;
@@ -22,7 +23,7 @@ export const ColumnImage = (props) => {
         !props.isEven ? "md:items-end" : ""
       }`}
     >
-      <a href={props.data.links.liveSite} target="_blank" rel="noreferrer">
+      <a href={props.data.links.liveSite}>
         <Image style={bgStyle} />
       </a>
     </FlexColContainer>
