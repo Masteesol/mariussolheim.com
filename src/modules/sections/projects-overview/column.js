@@ -5,12 +5,11 @@ import {
   H3,
   Paragraph,
 } from "../../styled-global-components";
-import { Image, Link } from "./styled-project-overview-components";
+import { ImageLink, Link } from "./styled-project-overview-components";
 
 export const ColumnImage = (props) => {
-  console.log(props.data.links.liveSite);
-  const url = props.data.media
-    ? require(`./project-images/${props.data.media}`)
+  const url = props.data.image
+    ? require(`./project-images/${props.data.image}`)
     : false;
   const bgStyle = url
     ? {
@@ -23,15 +22,13 @@ export const ColumnImage = (props) => {
         !props.isEven ? "md:items-end" : ""
       }`}
     >
-      <a href={props.data.links.liveSite}>
-        <Image style={bgStyle} />
-      </a>
+      <ImageLink style={bgStyle} />
     </FlexColContainer>
   );
 };
 
 export const ColumnText = (props) => {
-  console.log(props);
+  //console.log(props);
   return (
     <FlexColContainer className="w-full md:w-[50%] mt-[2rem] md:mt-0">
       <H3 className={!props.isEven ? "md:text-right" : "md:text-left"}>

@@ -8,7 +8,7 @@ export const InnerContainer = tw.div`
     flex-col
 `;
 
-export const Image = tw.picture`
+export const ImageLink = tw.picture`
     w-full
     max-w-full
     h-[25rem]
