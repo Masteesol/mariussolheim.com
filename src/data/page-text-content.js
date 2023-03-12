@@ -39,7 +39,7 @@ const PageTextContent = {
       image: "nextjs.png",
       links: {
         gitHub: "https://github.com/Masteesol/electricity-price-checker",
-        liveSite: "electricity-price-checker-ca.netlify.app",
+        liveSite: "https://electricity-price-checker-ca.netlify.app",
       },
     },
   ],
