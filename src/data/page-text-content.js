@@ -38,8 +38,8 @@ const PageTextContent = {
       text: `A small NextJS app for checking the electricity prices for different areas in Norway. For the colors in the graph, I had to code the RGB values to change according to the price level. A lot of fun!`,
       image: "nextjs.png",
       links: {
-        gitHub: "#",
-        liveSite: "#",
+        gitHub: "https://github.com/Masteesol/electricity-price-checker",
+        liveSite: "electricity-price-checker-ca.netlify.app",
       },
     },
   ],
