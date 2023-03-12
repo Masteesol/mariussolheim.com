@@ -29,8 +29,8 @@ const PageTextContent = {
       text: `This project was my first major experience with React on a larger scale. The design is simple and modern. The interface is very modal heavy for a lot of user actions. The main navigation is based on a Bootstrap carousel component, something I haven't seen that much, but in my opinion, it works really well.`,
       image: "linkuplive.png",
       links: {
-        gitHub: "#",
-        liveSite: "#",
+        gitHub: "https://github.com/Masteesol/linkuplive-pe2",
+        liveSite: "https://linkuplive-pe2.netlify.app",
       },
     },
     {
